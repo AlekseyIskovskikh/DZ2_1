@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InputForm</string>
+    <string name="appName">Подписка</string>
+    <string name="txtName">Имя</string>
+    <string name="txtEmail">Электронная почта</string>
+    <string name="txtOk">Ок</string>
+    <string name="txtClear">Очистить</string>
+    <string name="txtNull"></string>
+    <string name="txtinf1">"Подписка на рассылку успешно оформлена для пользователя   ></string>
+    <string name="txtinf2">"  электронный адрес  ></string>
+
+
+</resources>
