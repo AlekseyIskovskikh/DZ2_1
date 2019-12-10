@@ -23,22 +23,22 @@ public class MainActivity extends AppCompatActivity {
         Button btnClear = findViewById(R.id.buttonClear);
         Button btnOk = findViewById(R.id.buttonOk);
         btnClear.setOnClickListener(new View.OnClickListener() {
+            TextView t1 = findViewById(R.id.editTextName);
+            TextView t2 = findViewById(R.id.editTextEmail);
+            TextView t3 = findViewById(R.id.txinf);
             @Override
             public void onClick(View v) {
-                TextView t1 = findViewById(R.id.editTextName);
-                TextView t2 = findViewById(R.id.editTextEmail);
-                TextView t3 = findViewById(R.id.txinf);
                 t1.setText(R.string.txtNull);
                 t2.setText(R.string.txtNull);
                 t3.setText(R.string.txtNull);
             }
         });
         btnOk.setOnClickListener(new View.OnClickListener() {
+            TextView txt1 = findViewById(R.id.txinf);
+            EditText edt = findViewById(R.id.editTextEmail);
+            EditText edt1 = findViewById(R.id.editTextName);
             @Override
             public void onClick(View v) {
-                TextView txt1 = findViewById(R.id.txinf);
-                EditText edt = findViewById(R.id.editTextEmail);
-                EditText edt1 = findViewById(R.id.editTextName);
                 String stringEdt1 = getString(R.string.txtinf1)+edt1.getText().toString();
                 String stringEdt = getString(R.string.txtinf2)+edt.getText().toString();
                 String res = stringEdt1 + stringEdt;
