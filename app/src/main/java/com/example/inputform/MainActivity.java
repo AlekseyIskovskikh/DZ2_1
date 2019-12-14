@@ -18,25 +18,25 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+private TextView txt1;
+private EditText edt;
+private EditText edt1;
     private void Init()
     {
         Button btnClear = findViewById(R.id.buttonClear);
         Button btnOk = findViewById(R.id.buttonOk);
         btnClear.setOnClickListener(new View.OnClickListener() {
-            TextView t1 = findViewById(R.id.editTextName);
-            TextView t2 = findViewById(R.id.editTextEmail);
-            TextView t3 = findViewById(R.id.txinf);
-            @Override
-            public void onClick(View v) {
-                t1.setText(R.string.txtNull);
-                t2.setText(R.string.txtNull);
-                t3.setText(R.string.txtNull);
-            }
-        });
-        btnOk.setOnClickListener(new View.OnClickListener() {
             TextView txt1 = findViewById(R.id.txinf);
             EditText edt = findViewById(R.id.editTextEmail);
             EditText edt1 = findViewById(R.id.editTextName);
+            @Override
+            public void onClick(View v) {
+                txt1.setText(R.string.txtNull);
+                edt.setText(R.string.txtNull);
+                edt1.setText(R.string.txtNull);
+            }
+        });
+        btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String stringEdt1 = getString(R.string.txtinf1)+edt1.getText().toString();
