@@ -6,6 +6,7 @@
     <string name="txtOk">Ок</string>
     <string name="txtClear">Очистить</string>
     <string name="txtNull"></string>
+    <string name="txtFull">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
     <string name="txtinf1">"Подписка на рассылку успешно оформлена для пользователя   ></string>
     <string name="txtinf2">"  электронный адрес  ></string>
 
